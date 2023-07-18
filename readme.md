@@ -7,7 +7,7 @@ In the future, this project could include types for the websocket events and xmp
 Types may be incomplete or incorrect, please open an issue if you find any problems.
 
 > **Note**\
-> This is my personal fork of [valorant-api-types](https://github.com/techchrism/valorant-api-docs/tree/trunk/valorant-api-types) directory of [valorant-api-docs](https://github.com/techchrism/valorant-api-docs)
+> This is my personal fork of [valorant-api-types](https://github.com/techchrism/valorant-api-docs/tree/trunk/valorant-api-types) directory from [valorant-api-docs](https://github.com/techchrism/valorant-api-docs)
 
 ## Installation
 
