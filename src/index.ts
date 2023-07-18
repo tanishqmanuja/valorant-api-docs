@@ -46,6 +46,7 @@ export * from './endpoints/pregame/PregameQuit'
 export * from './endpoints/currentgame/CurrentGamePlayer'
 export * from './endpoints/currentgame/CurrentGameMatch'
 export * from './endpoints/currentgame/CurrentGameLoadouts'
+export * from './endpoints/currentgame/CurrentGameQuit'
 
 export * from './endpoints/contracts/ItemUpgrades'
 export * from './endpoints/contracts/Contracts'
