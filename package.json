@@ -18,7 +18,8 @@
   ],
   "scripts": {
     "test": "tsc --build ./tests/tsconfig.json && node ./tests/dist/test.js",
-    "build": "tsc --build ./tsconfig.json"
+    "build": "tsc --build ./tsconfig.json",
+    "release": "changeset publish"
   },
   "keywords": [
     "valorant",
@@ -30,7 +31,10 @@
   "author": "techchrism",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.2",
     "@types/node": "^20.1.4",
+    "turbo": "^1.10.9",
     "typescript": "^4.9.4"
   },
   "dependencies": {
