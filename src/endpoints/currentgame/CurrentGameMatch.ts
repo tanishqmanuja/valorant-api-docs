@@ -67,7 +67,7 @@ export const currentGameMatchEndpoint = {
                 IsCoach: z.boolean(),
                 IsAssociated: z.boolean()
             })),
-            MatchmakingData: z.null()
+            MatchmakingData: z.record(z.string(),z.any()).nullable()
         })
     }
 } as const satisfies ValorantEndpoint
